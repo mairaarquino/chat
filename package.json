@@ -1,0 +1,27 @@
+{
+  "name": "studies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "socket.io-client": "^2.3.0",
+    "socketio": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mairaarquino/chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mairaarquino/chat/issues"
+  },
+  "homepage": "https://github.com/mairaarquino/chat#readme"
+}
