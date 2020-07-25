@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Chat em tempo real</title>
+            <link rel="stylesheet" href="assets/style.css">
+        </head>
+    <body>
+        <div class="nickname_container" id="nick">
+
+        <span>Digite seu nome:</span>
+        <form id="submit"><input type="text" id="nickname" /></form>
+
+        </div>
+
+        <div id="chat" hidden>
+
+        <div class="menu" =>
+        <div class="name" id="name"></div>
+        <div class="last" id="time"></div>
+        </div>
+
+        <ol class="chat">
+        
+        </ol>
+        
+        <input class="textarea" type="text" placeholder="Digite sua mensagem" id="textarea" />
+        </div>
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="./node_modules/socket.io-client/dist/socket.io.js"></script>
+        <script src="assets/index.js"></script>
+    </body>
+</html>
